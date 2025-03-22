@@ -1,0 +1,240 @@
+<temp type="text/css">
+body {
+      background-color: #FFFFFF;
+      margin: 5px 5px 5px 5px;
+      font-family: Tahoma;
+      font-size: 9pt;
+
+}
+
+th,p {
+      font-family: Tahoma;
+      font-size: 9pt;
+      color: #000000;
+}
+
+a:link,a:active,a:visited {
+    text-decoration: none;
+    color: #004384;
+}
+
+
+a:hover        {
+	color: #004384;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+font.bbcode_xsmall {
+      font-size: 10;
+}
+
+font.bbcode_medeim {
+      font-size: 14;
+}
+
+font.highlight {
+      color: #FF0000;
+      font-weight: bold;
+}
+
+table.border {
+      background-color: #DEDEDE;
+      border: 0px ;
+
+}
+
+td {
+      font-family: Tahoma;
+      font-size: 9pt;
+      color: #000000;
+      border : 0px;
+      padding : 4px;
+}
+
+td.row , td.row1 , td.row1dark{
+      background: #F8F8F8;
+      padding-right: 10px;
+      font-family: Tahoma;
+      font-size: 8pt;
+      line-height : 20px;
+
+
+}
+
+td.row2 , td.tcat  {
+      
+    
+      background :#A4A3BE;
+      height : 25px;
+      text-align: center;
+      padding-right: 10px;
+      color: #FFFFFF;
+      font-family: Tahoma;
+      font-weight: bold;
+      font-size: 8pt;
+}
+
+.row2
+{
+      text-align: right;
+      font-family: Tahoma;
+      font-size: 9pt;
+}
+
+.main
+{
+      font-family: Tahoma;
+      font-size: 9pt;
+}
+
+form {
+      margin: 0px 0px 0px 0px;
+}
+
+textarea, select, input {
+      font-family: Tahoma;
+      font-size: 8pt;
+}
+
+input.button {
+        background: #ffffff;
+        border: 1px solid #939393;
+        color: #000000;
+        font-family: Tahoma;
+        font-size: 11px;
+        padding: 2px;
+        padding-right: 6px;
+        padding-left: 6px;
+        }
+
+fieldset {
+        color: #000000;
+        padding-right: 6px;
+        padding-left: 6px;
+        padding-bottom: 6px;
+}
+
+div.sdmenu {
+	width: 177px;
+	font-family: Tahoma;
+	font-size: 12px;
+	padding-bottom: 10px;
+	background: url(temp/images/bottom.gif) no-repeat  right bottom;
+	color: #fff;
+}
+div.sdmenu div {
+	background: url(temp/images/title.gif) repeat-x;
+	overflow: hidden;
+}
+div.sdmenu div.collapsed {
+	height: 25px;
+}
+div.sdmenu div span.ro {
+	display: block;
+	padding: 5px 10px;
+	font-weight: bold;
+	color: white;
+	background: url(temp/images/expanded.gif) no-repeat 10px center;
+	cursor: default;
+	border-bottom: 1px solid #ddd;
+}
+div.sdmenu div.collapsed span {
+	background-image: url(temp/images/collapsed.gif);
+}
+div.sdmenu div a.link , div.sdmenu div span.word {
+	padding: 5px 10px;
+	background: #F3F3F3;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	color: #3E4F62;
+}
+
+div.sdmenu div span.logo {
+	padding: 0px ;
+	background: #F5F5F5;
+	display: block;
+	border: 1px solid #ddd;
+	color: #3E4F62;
+}
+
+
+div.sdmenu div a.current {
+	background : #CCC;
+}
+div.sdmenu div a.link:hover , div.sdmenu div span.word:hover  {
+	background : #E8E8E8;
+
+	color: #303F53;
+	text-decoration: nono;
+}
+
+
+#hintbox{ /*CSS for pop up hint box */
+position:absolute;
+top: 0;
+background-color: lightyellow;
+width: 150px; /*Default width of hint.*/ 
+padding: 3px;
+border:1px solid black;
+font:normal 10px tahoma;
+line-height:18px;
+z-index:100;
+border-right: 3px solid black;
+border-bottom: 3px solid black;
+visibility: hidden;
+}
+
+.hintanchor{ /*CSS for link that shows hint onmouseover*/
+font-weight: bold;
+color: navy;
+
+cursor:help
+}
+
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#basic-accordian{
+	border:5px solid #EEE;
+	padding:5px;
+	width:350px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-175px;
+	z-index:2;
+	margin-top:-100px;
+}
+
+.accordion_headings{
+	padding:5px;
+	background:#A4A3BE;
+	color:#FFFFFF;
+	border:1px solid #FFF;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.accordion_headings:hover{
+	background:#00CCFF;
+}
+
+.accordion_child{
+	padding:15px;
+	background:#EEE;
+}
+
+.header_highlight{
+	padding:5px;
+	background:#00CCFF;
+	color:#FFFFFF;
+	border:1px solid #FFF;
+	cursor:pointer;
+	font-weight:bold;
+	
+}
+</temp>
